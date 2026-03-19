@@ -1,4 +1,19 @@
 {
+<<<<<<< HEAD
+  "name": "ecommers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1"
+=======
   "name": "node-js",
   "version": "1.0.0",
   "description": "glaclass",
@@ -13,5 +28,6 @@
   "license": "ISC",
   "dependencies": {
     "nodemon": "^3.1.11"
+>>>>>>> 75f523335af76942f75f7c79c8f19a052d90e495
   }
 }
