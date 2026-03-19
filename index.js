@@ -1,6 +1,16 @@
-import add from "./add.js";
 
-const output = add(5, 10);
-console.log(output);
-import os from 'os';
-console.log(os.platform())
+const sum=(a,b) =>{
+    return a+b;
+}
+const div =(a,b) =>{
+    return a/b;}
+    
+const sub= (a,b) =>{
+        return a-b;
+     }
+     module.exports={
+        sum,
+        div,
+        sub
+     };
+     
