@@ -7,6 +7,6 @@ app.get("/",(req,res) => {
 app.listen(3000,()=>{
     console.log("server running at port 3000")
 })
-app.get ("/home ,(req,res"=>{
+app.get ("/home" ,(req,res)=>{
     res.send("home page down ");
 });
