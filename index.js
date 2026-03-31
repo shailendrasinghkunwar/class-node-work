@@ -1,17 +1,10 @@
+const dotenv = require('dotenv');
+const app = require('./app');
 
-const app = require("./app.js");
-const dotenv = require("dotenv");
 dotenv.config();
 
-
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || process.env.port || 3000;
 
 app.listen(PORT, () => {
-  console.log('E-commerce API running on port'+PORT);
+  console.log(`Server running at http://localhost:${PORT}`);
 });
-import add from "./add.js";
-
-import os from 'os';
-console.log(os.platform())
-if 
-
